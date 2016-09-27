@@ -92,6 +92,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
                 returnFlag = false;
                 Log.i(TAG, "---->ACTION_DOWN");
                 oldY = (int) event.getRawY();
+                distance =0;
                 break;
             case MotionEvent.ACTION_MOVE:
                 newY = (int) event.getRawY();
